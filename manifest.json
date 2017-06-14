@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Web Hosting Tools",
+  "description": "Collection of all common tools related to web hosting",
+  "version": "0.0.1",
+
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+	"contextMenus"
+  ],
+   "background": { 
+      "scripts": ["script.js"]
+    }
+}
